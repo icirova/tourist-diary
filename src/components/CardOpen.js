@@ -1,15 +1,16 @@
-import "./Card.css";
+import "./CardOpen.css";
 import Button from "./Button";
 
-const Card = (props) => {
+const CardOpen = (props) => {
   return (
-    <div className="card">
+    <div className="card card--open">
       <h1 className="title">{ props.title }</h1>
       <p className="tags">{props.tags}</p>
       <p className="perex"> {props.perex}</p>
+      <p className="description"> {props.description}</p>
       <Button></Button>
     </div>
   );
 };
 
-export default Card;
+export default CardOpen;

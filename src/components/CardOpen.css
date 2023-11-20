@@ -1,0 +1,6 @@
+.card--open {
+    height: 80vh;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: none;
+}

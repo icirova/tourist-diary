@@ -10,16 +10,25 @@ body {
     background-size: cover;
     min-height: 100vh;
     background-position: center;
-    font-family: 'Lora', serif;
-    
-    
+    font-family: 'Lora', serif;   
 }
 
-.cards {
+.wrapper {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+
+
+.cards {
+   
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    /* display: none; */
 }
 
