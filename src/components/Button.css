@@ -1,0 +1,17 @@
+.btn {
+    background-color:#e88f24 ;
+    cursor: pointer;
+    padding: 10px 5px;
+    width: 100px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+.btn:hover {
+    background-color: #be6f28;
+    
+}
