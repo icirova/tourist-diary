@@ -14,16 +14,31 @@
 
 .tags {
     margin-bottom: 20px;
+    font-size: 150%;
 
 }
 
 .perex {
     margin-bottom: 20px;
     font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 
 }
 
 .description {
     margin-bottom: 20px;
+}
+
+.cards {
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* display: none; */
+   
+}
+
+.display-none {
+    display: none;
 }
